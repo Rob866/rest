@@ -13,8 +13,8 @@
 
 body {
   font-family: 'Indie Flower', cursive;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(148, 0, 211, 0.1))), url("../img/bg.jpeg");
-  background: linear-gradient(rgba(148, 0, 211, 0.1)), url("../img/bg.jpeg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(148, 0, 211, 0.1))), url("../img/bg.jpg");
+  background: linear-gradient(rgba(148, 0, 211, 0.1)), url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
