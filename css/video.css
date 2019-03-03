@@ -1,0 +1,70 @@
+#videoPanel{
+    position: relative;
+    overflow: hidden;
+    border: 30px solid  transparent;
+    border-radius: 5px;
+    background-image: url(../video/frame.png);
+    background-size: 100% 100%;
+    box-shadow:  10px 10px 20px black;
+}
+
+
+#myVideo{
+    margin-bottom: -8px;
+}
+#videoPanel:hover #controls{
+    bottom: 0;
+}
+
+#controls{
+    width: 100%;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    bottom: -30%;
+    transform: translateX(-50%);
+    transition: all 1s;
+}
+
+#seek-bar{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+#fill{
+    width: 0;
+    height: 10px;
+    background-color: #DBA74A;
+}
+
+
+#main{
+    
+}
+#currentTime{
+    font-family: monospace;
+    font-size: 10px;
+    color:#DBA74A;
+    margin-left: 5px;
+}
+#playBtn{
+    cursor: pointer;
+}
+input[type=range]{
+    -webkit-appearance : none !important;
+    background-color: gray;
+    height: 4px;
+    border-radius: 4px;
+    outline: none;
+}
+input[type=range]::-webkit-slider-thumb{
+    -webkit-appearance : none !important;
+    background-color: #DBA74A;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
