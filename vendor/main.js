@@ -24,6 +24,8 @@ $(function() {
       }
     } else {
       $("#mainNav").addClass("navbarFixed");
+      $("#AddMargen").css({"margin-top" :"10rem"});
+      
      
 
     }
