@@ -223,14 +223,14 @@ p {
 #mainNav {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  background-color: rgba(147, 112, 219, 0.4);
+  background-color: rgba(92, 23, 33, 0.4);
   -webkit-transition: all .5s;
   transition: all .5s;
   font-family: 'Crimson Text', serif;
 }
 
 #mainNav .navbar-brand {
-  color: #4B0082;
+  color: #472b2f;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -239,7 +239,7 @@ p {
 }
 
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #4B0082;
+  color: #472b2f;
 }
 
 @media (min-width: 992px) {
@@ -250,7 +250,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #4B0082;
+    color: #472b2f;
   }
 }
 
@@ -303,7 +303,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(75, 0, 130, 0.9);
+  background-color: rgba(71, 43, 47, 0.9);
 }
 
 .cta .cta-inner {
@@ -369,7 +369,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(75, 0, 130, 0.5);
+  border-bottom: 1px solid rgba(71, 43, 47, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -377,7 +377,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #4B0082;
+  color: #472b2f;
 }
 
 @media (min-width: 992px) {
@@ -394,7 +394,7 @@ p {
 /*formulario*/
 .form {
   margin: 0;
-  color: #9370DB;
+  color: #5c1721;
   line-height: 1.6;
   font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 1em;
@@ -418,7 +418,7 @@ p {
 }
 
 .form .wrapper .company-info {
-  background-color: #4B0082;
+  background-color: #472b2f;
   opacity: 0.5;
 }
 
@@ -427,7 +427,7 @@ p {
 }
 
 .form .wrapper .contact {
-  background-color: #9370DB;
+  background-color: #5c1721;
   opacity: 0.5;
   width: 100%;
   text-align: center;
@@ -481,7 +481,7 @@ p {
   outline: none;
   border: none;
   border-bottom: 2px solid  black;
-  background-color: #9370DB;
+  background-color: #5c1721;
 }
 
 .form .wrapper .contact form p textarea {
@@ -491,7 +491,7 @@ p {
   outline: none;
   border: none;
   border-bottom: 2px solid  black;
-  background-color: #9370DB;
+  background-color: #5c1721;
   height: 75px;
 }
 
@@ -504,7 +504,7 @@ p {
   outline: 0;
   text-transform: uppercase;
   margin-top: 50px;
-  background-color: #4B0082;
+  background-color: #472b2f;
   cursor: pointer;
 }
 
@@ -518,15 +518,15 @@ p {
 }
 
 .footer {
-  background-color: rgba(147, 112, 219, 0.9);
+  background-color: rgba(92, 23, 33, 0.9);
 }
 
 .text-primary {
-  color: #4B0082 !important;
+  color: #472b2f !important;
 }
 
 .bg-primary {
-  background-color: #4B0082 !important;
+  background-color: #472b2f !important;
 }
 
 .btn {
